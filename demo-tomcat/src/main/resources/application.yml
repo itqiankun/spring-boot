@@ -1,0 +1,7 @@
+server:
+  port: 8888
+  tomcat:
+    max-connections: 20
+    max-threads: 10
+    min-spare-threads: 5
+    accept-count: 20
