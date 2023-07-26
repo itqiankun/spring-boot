@@ -20,14 +20,14 @@ import java.net.URLClassLoader;
 public class SpringBootDemoClassLoaderApplication {
 
     public static void main(String[] args) {
-//      System.out.println("========= ClassLoader Tree=============");
-//      System.out.println(ClassLoaderUtils.tree());
-//
-//      System.out.println("========= Spring Boot Application ClassLoader Urls =============");
-//      System.out.println(ClassLoaderUtils.urls((URLClassLoader) SpringBootDemoClassLoaderApplication.class.getClassLoader()));
-//
-//      System.out.println("========= System ClassLoader Urls =============");
-//      System.out.println(ClassLoaderUtils.urls((URLClassLoader) ClassLoader.getSystemClassLoader()));
+      System.out.println("========= ClassLoader Tree=============");
+      System.out.println(ClassLoaderUtils.tree());
+
+      System.out.println("========= Spring Boot Application ClassLoader Urls =============");
+      System.out.println(ClassLoaderUtils.urls((URLClassLoader) SpringBootDemoClassLoaderApplication.class.getClassLoader()));
+
+      System.out.println("========= System ClassLoader Urls =============");
+      System.out.println(ClassLoaderUtils.urls((URLClassLoader) ClassLoader.getSystemClassLoader()));
 
 
       SpringApplication.run(SpringBootDemoClassLoaderApplication.class, args);
