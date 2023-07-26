@@ -11,7 +11,7 @@ import java.util.Enumeration;
 @Component
 @Slf4j
 public class ScheduledTask {
-    @Scheduled(cron = "* * * * * ?")
+//    @Scheduled(cron = "* * * * * ?")
     public void classLoader() throws IOException {
       ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
 
