@@ -2,7 +2,6 @@ package com.itqiankun.docker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
@@ -15,9 +14,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @EnableScheduling
 @SpringBootApplication
-public class SpringBootDemoDockerApplication {
+public class SpringBootDemoDockerClassLoaderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoDockerApplication.class, args);
+        SpringApplication.run(SpringBootDemoDockerClassLoaderApplication.class, args);
     }
 }
