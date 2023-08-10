@@ -27,6 +27,7 @@
     <module>demo-orm-beetlsql</module>
     <module>demo-upload</module>
     <module>demo-cache-redis</module>
+    <module>demo-cache-redis-seckill</module>
     <module>demo-classloader</module>
     <module>demo-cache-ehcache</module>
     <module>demo-email</module>
@@ -52,6 +53,7 @@
     <module>demo-scheduled</module>
     <module>demo-async</module>
     <module>demo-dubbo</module>
+    <module>demo-runner</module>
     <module>demo-war</module>
     <module>demo-elasticsearch</module>
     <module>demo-mongodb</module>

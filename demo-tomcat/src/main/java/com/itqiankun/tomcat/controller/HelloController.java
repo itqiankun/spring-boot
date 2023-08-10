@@ -21,12 +21,12 @@ import java.util.concurrent.TimeUnit;
 public class HelloController {
     @GetMapping("/hello")
     public String hello() {
-      try {
-        TimeUnit.SECONDS.sleep(10);
-      } catch (InterruptedException e) {
-        throw new RuntimeException(e);
-      }
+//      try {
+//        TimeUnit.SECONDS.sleep(10);
+//      } catch (InterruptedException e) {
+//        throw new RuntimeException(e);
+//      }
       log.info("打印日志");
-      return "tomcat ";
+      return "tomcat";
     }
 }
