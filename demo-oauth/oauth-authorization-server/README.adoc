@@ -13,7 +13,7 @@ spring boot oauth2 授权服务器，
 
 > SQL 语句
 >
-> - DDL： `src/test/resources/schema.sql`
+> - DDL： `src/test/resources/table.sql`
 > - DML： `src/test/resources/import.sql`
 
 测试用例使用 h2 数据库，测试数据如下：

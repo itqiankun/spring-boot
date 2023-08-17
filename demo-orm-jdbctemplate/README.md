@@ -305,7 +305,7 @@ spring:
     initialization-mode: always
     continue-on-error: true
     schema:
-    - "classpath:db/schema.sql"
+    - "classpath:db/table.sql"
     data:
     - "classpath:db/data.sql"
     hikari:

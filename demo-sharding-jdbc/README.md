@@ -10,7 +10,7 @@
 ## 1. 运行方式
 
 1. 在数据库创建2个数据库，分别为：`spring-boot-demo`、`spring-boot-demo-2`
-2. 去数据库执行 `sql/schema.sql` ，创建 `6` 张分片表
+2. 去数据库执行 `sql/table.sql` ，创建 `6` 张分片表
 3. 找到 `DataSourceShardingConfig` 配置类，修改 `数据源` 的相关配置，位于 `dataSourceMap()` 这个方法
 4. 找到测试类 `SpringBootDemoShardingJdbcApplicationTests` 进行测试
 

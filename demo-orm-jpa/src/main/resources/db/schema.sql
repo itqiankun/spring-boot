@@ -10,7 +10,7 @@ CREATE TABLE `orm_user` (
   `create_time` DATETIME NOT NULL DEFAULT NOW() COMMENT '创建时间',
   `last_login_time` DATETIME DEFAULT NULL COMMENT '上次登录时间',
   `last_update_time` DATETIME NOT NULL DEFAULT NOW() COMMENT '上次更新时间'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Spring Boot Demo Orm 系列示例表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT=' ';
 
 
 DROP TABLE IF EXISTS `orm_department`;
@@ -22,7 +22,7 @@ CREATE TABLE `orm_department` (
   `order_no` INT(11) NOT NULL DEFAULT 0 COMMENT '排序',
   `create_time` DATETIME NOT NULL DEFAULT NOW() COMMENT '创建时间',
   `last_update_time` DATETIME NOT NULL DEFAULT NOW() COMMENT '上次更新时间'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Spring Boot Demo Orm 系列示例表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT=' ';
 
 DROP TABLE IF EXISTS `orm_user_dept`;
 CREATE TABLE `orm_user_dept` (
@@ -31,4 +31,4 @@ CREATE TABLE `orm_user_dept` (
   `dept_id` INT(11) NOT NULL COMMENT '部门id',
   `create_time` DATETIME NOT NULL DEFAULT NOW() COMMENT '创建时间',
   `last_update_time` DATETIME NOT NULL DEFAULT NOW() COMMENT '上次更新时间'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Spring Boot Demo Orm 系列示例表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT=' ';
