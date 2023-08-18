@@ -79,6 +79,7 @@
     <module>demo-https</module>
     <module>demo-flyway</module>
     <module>demo-pay</module>
+    <module>demo-resttemplate</module>
     <module>demo-interceptor-simple</module>
   </modules>
   <packaging>pom</packaging>

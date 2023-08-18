@@ -1,4 +1,4 @@
-package com.itqiankun.logback;
+package com.itqiankun.resttemplate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,17 +6,17 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * <p>
- * 启动类
+ * 启动器
  * </p>
  *
  * @author ma_qiankun
- * @date Created in 2018-09-30 23:16
+ * @date Created in 2018-11-29 14:59
  */
-@SpringBootApplication
 @EnableScheduling
-public class SpringBootDemoLogbackApplication {
+@SpringBootApplication
+public class SpringBootDemoRestTemplateApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoLogbackApplication.class, args);
+        SpringApplication.run(SpringBootDemoRestTemplateApplication.class, args);
     }
 }
