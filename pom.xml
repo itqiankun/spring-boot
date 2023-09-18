@@ -23,7 +23,6 @@
     <module>demo-classloader</module>
     <module>demo-cache-ehcache</module>
     <module>demo-email</module>
-    <module>demo-scheduled</module>
     <module>demo-task-quartz</module>
     <module>demo-task-xxl-job</module>
     <module>demo-swagger</module>
